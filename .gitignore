@@ -7,3 +7,5 @@ scala/project/
 scala/target/
 scala/project/
 scala/target/
+.metals
+.vscode
