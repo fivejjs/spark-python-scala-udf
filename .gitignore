@@ -1,0 +1,10 @@
+.idea/
+python/*
+python/build/
+python/dist/
+python/my_udf/__pycache__/
+python/spark_python_scala_udf.egg-info/
+scala/project/
+scala/target/
+scala/project/
+scala/target/

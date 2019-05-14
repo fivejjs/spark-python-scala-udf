@@ -2,7 +2,7 @@ import sys
 from pyspark.sql import SparkSession,SQLContext
 
 spark = SparkSession.builder.appName("PythonScalaUDF").getOrCreate()
-spark.range(1, 4).createOrReplaceTempView("test")
+spark.range(1, 1000000).createOrReplaceTempView("test")
 
 def call_python_udf_sql():
   from my_udf.functions import square
