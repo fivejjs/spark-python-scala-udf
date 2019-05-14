@@ -1,5 +1,4 @@
 .idea/
-python/*
 python/build/
 python/dist/
 python/my_udf/__pycache__/
