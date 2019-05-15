@@ -9,3 +9,4 @@ scala/project/
 scala/target/
 .metals
 .vscode
+data
